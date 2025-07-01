@@ -1,0 +1,13 @@
+[package]
+name = "rust-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_with = "1.14.0"  # ou une version compatible
+borsh = "0.10.3"
+solana-idlgen = { git = "https://github.com/deanmlittle/solana-idlgen.git" }
+solana-client = "~1.17"
+solana-sdk = "~1.17"
